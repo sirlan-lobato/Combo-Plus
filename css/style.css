@@ -1,0 +1,182 @@
+@import url("tablet.css");
+
+:root{
+    --branco-principal: #fff;
+    --cinza-secundario:#c0c0c0;
+    --botao-azul:#167bf7;
+    --cor-de-fundo:#00030c;
+    --font-principal:'Inter';
+}
+
+body{
+    background-color:var(--cor-de-fundo) ;
+    color: var(--branco-principal);
+    font-family: var(--font-principal);
+}
+
+.principal{ 
+    background-image: url("../imagens/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    align-items: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__caixa{
+    margin: 0 6em;
+}
+
+.container__imagem{
+    margin: 1em 0 2em 0;
+
+}
+
+.container__titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__aviso{
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.container__botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+    color: var(--branco-principal);
+    animation: neon 3s alternate infinite ease-in-out
+}
+
+@keyframes neon{
+    0%{
+        filter: drop-shadow(0 0 0 #167bf7);
+    }
+
+    100%{
+        filter: drop-shadow(0 0  30px  #03f7f7);
+    }
+}
+
+.container__botao:hover,
+.secundario__botao:hover{
+    background:linear-gradient(144deg,  blue, rgb(115, 19, 204));
+
+}
+
+.botao_secudario{
+    background-color: transparent;
+    border: 1px solid var(--branco-principal);
+    animation: neon 3s alternate infinite ease-in-out
+
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.secundario__imagem{
+    width: 80%;
+    position: relative;
+    animation: flutuacao 7s ease-in-out infinite;
+}
+
+.descricao__titulo{
+    font-size: 48px;
+    margin-bottom: 0.1em;
+    font-weight: 700;
+    color: var(--branco-principal);
+}
+
+.descricao__texto{
+    color: var(--cinza-secundario);
+}
+
+.container__descricao{
+    padding: 2em;
+
+}
+
+.secundario__botao{
+    display: inline-block;
+    margin: 1em 0;
+}
+
+.dispositivos{
+    text-align: center;
+}
+
+.flex__container{
+    display: flex;
+    justify-content: center;
+    margin: 4em 0;
+}
+
+.dispositivos__descricao{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.icone__dispositivos{
+    position: relative;
+    animation: flutuacao 8s ease-in-out infinite;
+}
+
+@keyframes flutuacao {
+    0%,100%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-45px);
+    }
+}
+
+.rodape{
+    text-align: center;
+    margin: 3em;
+}
+
+.flex__rodape{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 1em 0;
+}
+
+.lista__link a{
+    color: var(--branco-principal);
+    text-decoration: none;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+.lista__link a:hover{
+    color: var(--botao-azul);
+    font-size: 22px;
+    transition: 0.50s;
+}
+
+.lista__link:visited{
+    color: rgb(185, 14, 185);
+}
+
+.rodape__texto {
+    margin: 1em 0;
+    color: var(--cinza-secundario);
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
