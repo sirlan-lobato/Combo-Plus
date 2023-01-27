@@ -64,7 +64,7 @@ body{
     }
 
     100%{
-        filter: drop-shadow(0 0  30px  #03f7f7);
+        filter: drop-shadow(0 0  20px  #03f7f7);
     }
 }
 
