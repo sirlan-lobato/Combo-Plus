@@ -81,6 +81,7 @@
    
     .secundario{
         margin: 2em auto;
+        height: 60vh;
     }
 
     .secundario__imagem{
@@ -92,18 +93,22 @@
     }
 
     .descricao__texto{
+        text-align: justify;
         font-size: 20px;
         line-height: 1.2em;
-
     }
 
     .rodape{
-        margin: 1em;
+        margin: 1em 0;
     }
 
-    .descricao__texto,
+    .lista__link a{
+        margin: 0;
+    }
+    
     .rodape__texto{
         text-align: justify;
-        margin: 1em 0  ;
+        margin: 1em ;
+        line-height: 1.4em;
     } 
 }
