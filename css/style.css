@@ -59,11 +59,11 @@ body{
 
 @keyframes neon{
     0%{
-        filter: drop-shadow(0 0 0 #167bf7);
+        filter: drop-shadow(0 0 0 var(--botao-azul));
     }
 
     100%{
-        filter: drop-shadow(0 0  16px  #03f7f7);
+        filter: drop-shadow(0 0  16px  #01f7ff);
     }
 }
 
