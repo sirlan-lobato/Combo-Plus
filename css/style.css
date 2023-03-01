@@ -57,16 +57,6 @@ body{
     animation: neon 3s alternate infinite ease-in-out
 }
 
-@keyframes neon{
-    0%{
-        filter: drop-shadow(0 0 0 var(--botao-azul));
-    }
-
-    100%{
-        filter: drop-shadow(0 0  16px  #01f7ff);
-    }
-}
-
 .container__botao:hover,
 .secundario__botao:hover{
     background:linear-gradient(144deg,  blue, rgb(115, 19, 204));
@@ -138,7 +128,7 @@ body{
     }
 
     50%{
-        transform: translateY(-45px);
+        transform: translateY(-35px);
     }
 }
 
