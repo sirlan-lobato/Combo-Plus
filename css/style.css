@@ -37,12 +37,12 @@ body{
 }
 
 .container__titulo{
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 700;
 }
 
 .container__aviso{
-    font-size: 12px;
+    font-size: 0.75rem;
     color: var(--cinza-secundario);
 }
 
@@ -82,7 +82,7 @@ body{
 }
 
 .descricao__titulo{
-    font-size: 48px;
+    font-size: 3rem;
     margin-bottom: 0.1em;
     font-weight: 700;
     color: var(--branco-principal);
@@ -114,7 +114,7 @@ body{
 
 .dispositivos__descricao{
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .icone__dispositivos{
@@ -153,7 +153,7 @@ body{
 
 .lista__link a:hover{
     color: var(--botao-azul);
-    font-size: 22px;
+    font-size: 1.3rem;
     transition: 0.50s;
 }
 
@@ -164,7 +164,7 @@ body{
 .rodape__texto {
     margin: 1em 0;
     color: var(--cinza-secundario);
-    font-size: 14px;
+    font-size: 0.9rem;
     line-height: 22px;
 }
 
