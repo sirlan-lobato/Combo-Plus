@@ -46,16 +46,23 @@
     .rodape__texto{
         text-align: justify;
     }
-
-    .
 }
 
 @media screen and (max-width: 400px){
+    .container__titulo{
+        font-size: 1.6rem;
+        text-align: justify;
+    }
+
     .descricao__titulo{
-        font-size: 28px;
+        font-size: 1.5rem;
     }
     .descricao__texto{
         text-align: justify;
+    }
+
+    .container__imagem{
+        width: 200px;
     }
 
     .icone__dispositivos{
