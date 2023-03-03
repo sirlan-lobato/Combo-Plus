@@ -83,7 +83,7 @@ body{
 
 .descricao__titulo{
     font-size: 3rem;
-    margin-bottom: 0.1em;
+    margin-bottom: 0.2em;
     font-weight: 700;
     color: var(--branco-principal);
 }
