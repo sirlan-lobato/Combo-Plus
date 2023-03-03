@@ -1,71 +1,56 @@
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 768px){
     .container{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
+        display: block;
+        background-image: none;
     }
 
     .container__caixa{
-        margin: 60% 4%;
+        margin: 2em 2em;
     }
 
     .container__imagem{
-        width: 300px;
-        margin: 20px 0;
+        width: 50vw;
     }
 
     .secundario{
-        margin: 1.5em 0;
+        text-align: center;
+        margin: 0;
     }
 
     .secundario__imagem{
-        width: 50%;
-    }
-
-    .descricao__titulo{
-        text-align: center;
+        width: 50vw;
     }
 
     .descricao__texto{
-        line-height: 1.5em;
+        text-align: justify;
     }
 
     .flex__container{
-        flex-direction: column;
-        margin: 4em 0;
+        display:block;
     }
 
     .flex__rodape{
         flex-wrap: wrap;
     }
-
-    .rodape{
-        margin: 0 4%;
-    }
-
-    .rodape__texto{
-        text-align: justify;
-    }
 }
 
 @media screen and (max-width: 400px){
-    .container__titulo{
+   .descricao__titulo{
         font-size: 1.6rem;
+   }
+
+   .descricao__texto{
+    line-height: 20px;
+   }
+
+   .rodape{
+        margin: 0 1em;
+    }
+   .rodape__texto{
         text-align: justify;
-    }
+   }
 
-    .descricao__titulo{
-        font-size: 1.5rem;
-    }
-    .descricao__texto{
-        text-align: justify;
-    }
-
-    .container__imagem{
-        width: 200px;
-    }
-
-    .icone__dispositivos{
-        width: 75%;
+   .icone__dispositivos{
+        width: 70vw;
     }
 }
